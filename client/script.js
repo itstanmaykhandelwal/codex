@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://codex-lyxn.onrender.com/', {
+    const response = await fetch('https://codex-gpt-weg1.onrender.com/', {
     // const response = await fetch('http://localhost:5000', {
         method: 'POST',
         headers: {
