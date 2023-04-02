@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
 
     // fetch from backend
 
-    const response = await fetch('http://localhost:5000',{
+    const response = await fetch('https://codex-lyxn.onrender.com',{
         method:'POST',
         headers:{
             'Content-Type':'application/json'
